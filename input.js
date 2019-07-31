@@ -19,6 +19,12 @@ const handUserInput = function(key) {
   if (key === 'd') {
     connection.write('Move: right')
   }
+  if (key === 'f') {
+    connection.write('Say: CYA LATA')
+  }
+  if (key === 'r') {
+    connection.write('Say: LOLOLOLOL')
+  }
 }
 
 
